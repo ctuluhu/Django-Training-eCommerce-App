@@ -22,7 +22,7 @@ To get this working on your local machine you need to:
 1. Download the repository and unzip the archieve.
 2. Using the teminal go to the main directory of the project and use fallowing commands:
 - `source ./virtualenv/bin/activate`
-- `python ./ecommerce/manage.py runserver`
+- `python3 ./ecommerce/manage.py runserver`
 3. Then you can access the site using your web browser on http://127.0.0.1:8000/
 4. At the end to leave the virtual environment use `deactivate` command in your terminal.
 

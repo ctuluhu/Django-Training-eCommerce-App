@@ -1,5 +1,5 @@
 **WHAT'S THAT**<br>
-Basically this is a store app with fallowing main functionalities:
+Basically this is a store app with following main functionalities:
 - shop page
 - registering new users
 - taking orders
@@ -36,5 +36,5 @@ You can edit products and categories there as well as add a new one or change th
 <br>
 <br>
 
-Of course this is not a ready to deploy store but rather a training project to get some knowladge about Django 2 framework.
+Of course this is not a ready to deploy store but rather a training project to get some knowledge about Django 2 framework.
 Anyway thank you for taking your time to take a look.

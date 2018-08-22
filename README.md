@@ -7,10 +7,10 @@ Basically this is a store app with fallowing main functionalities:
 - showing order history for a registered user
 
 Packages used in development:
-Django 2.1
-Pillow 5.2.0
-stripe 2.5.0
-django-crispy-forms 1.7.2
+- Django 2.1
+- Pillow 5.2.0
+- stripe 2.5.0
+- django-crispy-forms 1.7.2
 
 Of course this is not a ready to deploy store but rather a training project to get some knowladge about Django 2 framework.
 

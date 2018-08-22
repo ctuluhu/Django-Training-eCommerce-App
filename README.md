@@ -19,7 +19,7 @@ Packages used in development:
 
 **SETUP**<br>
 To get this working on your local machine you need to:
-1. Download the repository.
+1. Download the repository and unzip the archieve.
 2. Using the teminal go to the main directory of the project and use fallowing commands:
 - `source ./virtualenv/bin/activate`
 - `python ./ecommerce/manage.py runserver`

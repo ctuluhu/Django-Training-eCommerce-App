@@ -23,6 +23,6 @@ To get this working on your local machine you need to:
 4. At the end to leave the virtual environment use 'deactivate' command in your terminal.
 
 To access the admin page go to http://127.0.0.1:8000/admin/ and use fallowing credentials:
-    login: admin
-    password: admin
+    - login: admin
+    - password: admin
 You can edit products and categories there as well as add a new one or change the available stock. 

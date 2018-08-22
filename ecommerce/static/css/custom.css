@@ -1,0 +1,217 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/****General****/
+
+.my_title {
+    font-size: 16px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+
+/****Cart Page****/
+
+.my_custom_a {
+    text-decoration: none;
+}
+
+.my_custom_button {
+    background-color: #868e96 !important;
+    background-image: none !important;
+    border: 0px !important;
+    display: block !important;
+    margin-top: 5px;
+    width: 100% !important;
+}
+
+.my_custom_icon {
+    color: #868e96 !important;
+    text-decoration: none;
+}
+
+.my_custom_image {
+    height: 100px;
+    width: 100px;
+}
+
+.my_custom_table {
+    font-size: 14px;
+    min-width: 400px;
+}
+
+.my_custom_thead {
+    background-color: #f8f9fa !important;
+    font-weight: normal;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+
+/****Category and Search Page****/
+
+.card-body h4 {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.my_bottom_margin {
+    margin-bottom: 10px;
+}
+
+.my_image {
+    height: auto;
+    width: 100%;
+}
+
+.my_image_padding {
+    padding-top: 5px;
+}
+
+.my_row {
+    padding-top: 15px;
+}
+
+.my_row .mx-auto p {
+    color: #000;
+    font-size: 12px;
+}
+
+.my_row .mx-auto p a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.my_search_text {
+    padding-top: 20px;
+}
+
+
+/****Footer****/
+
+.my_footer {
+    background-color: #f8f9fa;
+    height: 60px;
+}
+
+.my_footer p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+
+/****Navbar****/
+
+.dropdown-item {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+
+/****Navbar Top****/
+
+.my_custom_menu {
+    text-align: right !important;
+}
+
+.my_custom_menu ul li {
+    color: #000;
+    display: inline;
+    font-size: 12px;
+    letter-spacing: .2em;
+    list-style: none;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.my_custom_menu ul li a {
+    color: #000;
+    font-size: 12px;
+    letter-spacing: .2em;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.my_top_navbar_div {
+    height: 60px;
+    line-height: 50px;
+}
+
+
+/****Product Page****/
+
+.my_product_row {
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.my_product_row .mx-auto p {
+    color: #000;
+    font-size: 12px;
+}
+
+.my_product_row .mx-auto p a {
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.my_product_text {
+    padding-right: 20px;
+}
+
+.my_product_title {
+    font-size: 16px;
+    letter-spacing: .2em;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+
+/****SignUp, SignIn Forms****/
+
+.errorlist li {
+    color: red;
+    font-weight: bold;
+}
+
+.my_custom_div {
+    margin-bottom: 20px !important;
+}
+
+
+/****Stripe Button****/
+
+.stripe-button-el {
+    background-color: #868e96 !important;
+    background-image: none !important;
+    border: 0px !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.stripe-button-el span {
+    background: none !important;
+    background-image: none !important;
+    color: #fff !important;
+    display: block !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    padding: 0px 12px !important;
+    position: relative !important;
+}

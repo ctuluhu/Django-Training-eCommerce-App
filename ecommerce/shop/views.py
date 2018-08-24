@@ -24,16 +24,18 @@ def get_products(request, category_slug=None):
         products_list = Product.objects.all().filter(available=True)
 
     paginator = Paginator(products_list, 6)
+    
     try:
         page = int(request.GET.get('page', '1'))
     except:
         page = 1
+    
     try:
         products = paginator.page(page)
     except (EmptyPage, InvalidPage):
         products = paginator.page(paginator.num_pages)
 
-    return render(request, 'shop/category.html', { 'category' : category_page, 'products' : products })
+    return render(request, 'shop/category.html', { 'category': category_page, 'products': products })
 
 
 def product_details(request, category_slug, product_slug):
@@ -42,7 +44,7 @@ def product_details(request, category_slug, product_slug):
     except Exception as e:
         raise e
 
-    return render(request, 'shop/product.html', { 'product' : product })
+    return render(request, 'shop/product.html', { 'product': product })
 
 
 def signup_view(request):
@@ -57,7 +59,7 @@ def signup_view(request):
     else:
         form = SignUpForm()
 
-    return render(request, 'accounts/signup.html', { 'form' : form })
+    return render(request, 'accounts/signup.html', { 'form': form })
 
 
 def signin_view(request):
@@ -75,7 +77,7 @@ def signin_view(request):
     else:
         form = AuthenticationForm()
 
-    return render(request, 'accounts/signin.html', { 'form' : form })
+    return render(request, 'accounts/signin.html', { 'form': form })
 
 
 def signout_view(request):

@@ -70,6 +70,7 @@ def cart_detail(request, total=0, counter=0, cart_items=None):
             shipping_country = request.POST['stripeShippingAddressCountryCode']
             customer = stripe.Customer.create(email=email, source=token)
             charge = stripe.Charge.create(amount=stripe_total, currency='usd', description=description, customer=customer.id)
+            
             '''Create the order'''
             try:
                 order_details = Order.objects.create(
@@ -145,12 +146,13 @@ def cart_delete(request, product_id):
 def send_email(order_id):
     transaction = Order.objects.get(id=order_id)
     order_items = OrderItem.objects.filter(order=transaction)
+    
     try:
         subject = 'eCommerce Training Site - New Order #{}'.format(transaction.id)
         to = ['{}'.format(transaction.email)]
         order_information = {
-            'transaction' : transaction,
-            'order_items' : order_items,
+            'transaction': transaction,
+            'order_items': order_items,
         }
         message = get_template('email/email.html').render(order_information)
         msg = EmailMessage(subject, message, to=to)
